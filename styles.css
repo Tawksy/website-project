@@ -42,9 +42,30 @@ background-color: #1F2937;
 .block { 
     flex: 1; 
 }
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+
+}
 
 .first-block {
+    display: flex;
+    justify-content: start;
+    align-items: center;
     background-color: #1F2937;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageholder {
+    display: flex;
+    width: 100%;
+    height: auto;
+    
 }
 
 .second-block {

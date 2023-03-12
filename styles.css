@@ -1,6 +1,8 @@
 body {
-font-family: 'Roboto', sans-serif;
-background-color: #1F2937;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
 }
 
 .headerfont {
@@ -14,9 +16,42 @@ background-color: #1F2937;
 }
 
 .head-container {
+    margin-top: 30px;
     display: flex;
-    justify-content: space-evenly;
-    padding: 14px;
+    justify-content: space-between;
+    
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh
+    
+}
+
+.first-block {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.main-text {
+    width: 400px;
+    height: 300px;
+    flex-direction: column;
+    align-content: center;
+    border: 10px; 
+    border-color: #E5E7EB;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+
 }
 
 .head-links {
@@ -27,46 +62,35 @@ background-color: #1F2937;
     gap: 32px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.main-container {
+.button {
     display: flex;
-    flex-direction: column;
-    height: 100vh
-    
-}
-
-.block { 
-    flex: 1; 
-}
-.title {
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8;
-
-}
-
-.first-block {
-    display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #00307c;
+    transition: background-color;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    border: #00307c;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
-.main-text {
-    display: flex;
-    flex-direction: column;
+.button:hover {
+    background-color: #3882F6;
+    transition: 0.2s;
 }
 
-.imageholder {
-    display: flex;
-    width: 100%;
-    height: auto;
-    
+.picture {
+    height: 300px;
+    width: auto;
 }
+
+
 
 .second-block {
     background-color: #F9FAF8;

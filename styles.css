@@ -174,10 +174,12 @@ body {
 .signup {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     background-color: #3882F6;
     border-radius: 3px;
     padding: 20px;
     padding-top: 10px;
+    width: 800px;
 } 
 
 .signup-main {
@@ -217,3 +219,19 @@ body {
     align-items: center;
 } 
 
+.button-2:hover {
+    background-color:#81b1ff;
+    transition: 0.2s;
+}
+
+.footer-1 {
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+    background-color:#1F2937;
+} 
+
+.footerfont {
+    font-family: 'Roboto';
+    color: white;
+} 
